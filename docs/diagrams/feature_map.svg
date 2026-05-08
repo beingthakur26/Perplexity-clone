@@ -1,0 +1,104 @@
+<svg width="1400" height="950" viewBox="0 0 1400 950" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .core{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .box{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .later{fill:#1A1D27;stroke:#465063;stroke-width:2;stroke-dasharray:8 6}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:36px;font-weight:800}
+      .med{font-size:22px;font-weight:700}
+      .small{font-size:17px}
+      .tiny{font-size:14px}
+      .line{stroke:#465063;stroke-width:2;fill:none}
+      .accent{stroke:#20B2AA;stroke-width:3;fill:none}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="950"/>
+  <text class="text title" x="60" y="70">Feature Map</text>
+  <text class="muted small" x="60" y="104">What the SaaS platform contains and when to build it</text>
+
+  <rect class="core" x="520" y="160" width="360" height="120" rx="18"/>
+  <text class="text med" x="620" y="208">Core Product</text>
+  <text class="muted small" x="575" y="242">Cited AI answer engine</text>
+
+  <line class="accent" x1="700" y1="280" x2="700" y2="345"/>
+  <line class="accent" x1="210" y1="345" x2="1190" y2="345"/>
+  <line class="accent" x1="210" y1="345" x2="210" y2="395"/>
+  <line class="accent" x1="455" y1="345" x2="455" y2="395"/>
+  <line class="accent" x1="700" y1="345" x2="700" y2="395"/>
+  <line class="accent" x1="945" y1="345" x2="945" y2="395"/>
+  <line class="accent" x1="1190" y1="345" x2="1190" y2="395"/>
+
+  <rect class="box" x="80" y="395" width="260" height="160" rx="16"/>
+  <text class="text med" x="130" y="440">Auth</text>
+  <text class="muted tiny" x="110" y="475">register/login/logout</text>
+  <text class="muted tiny" x="110" y="500">email verification</text>
+  <text class="muted tiny" x="110" y="525">protected routes</text>
+
+  <rect class="core" x="325" y="395" width="260" height="160" rx="16"/>
+  <text class="text med" x="385" y="440">Search</text>
+  <text class="muted tiny" x="355" y="475">web search</text>
+  <text class="muted tiny" x="355" y="500">source scraping</text>
+  <text class="muted tiny" x="355" y="525">query rewriting</text>
+
+  <rect class="core" x="570" y="395" width="260" height="160" rx="16"/>
+  <text class="text med" x="640" y="440">Answer</text>
+  <text class="muted tiny" x="600" y="475">LLM synthesis</text>
+  <text class="muted tiny" x="600" y="500">citations</text>
+  <text class="muted tiny" x="600" y="525">streaming</text>
+
+  <rect class="box" x="815" y="395" width="260" height="160" rx="16"/>
+  <text class="text med" x="875" y="440">History</text>
+  <text class="muted tiny" x="845" y="475">saved chats</text>
+  <text class="muted tiny" x="845" y="500">follow-ups</text>
+  <text class="muted tiny" x="845" y="525">library filters</text>
+
+  <rect class="box" x="1060" y="395" width="260" height="160" rx="16"/>
+  <text class="text med" x="1120" y="440">Settings</text>
+  <text class="muted tiny" x="1090" y="475">profile</text>
+  <text class="muted tiny" x="1090" y="500">preferences</text>
+  <text class="muted tiny" x="1090" y="525">privacy/data</text>
+
+  <line class="line" x1="700" y1="555" x2="700" y2="635"/>
+  <line class="line" x1="210" y1="635" x2="1190" y2="635"/>
+  <line class="line" x1="210" y1="635" x2="210" y2="685"/>
+  <line class="line" x1="455" y1="635" x2="455" y2="685"/>
+  <line class="line" x1="700" y1="635" x2="700" y2="685"/>
+  <line class="line" x1="945" y1="635" x2="945" y2="685"/>
+  <line class="line" x1="1190" y1="635" x2="1190" y2="685"/>
+
+  <rect class="later" x="80" y="685" width="260" height="155" rx="16"/>
+  <text class="text med" x="135" y="728">Billing</text>
+  <text class="muted tiny" x="110" y="763">plans</text>
+  <text class="muted tiny" x="110" y="788">usage limits</text>
+  <text class="muted tiny" x="110" y="813">Stripe/Razorpay</text>
+
+  <rect class="later" x="325" y="685" width="260" height="155" rx="16"/>
+  <text class="text med" x="390" y="728">Files</text>
+  <text class="muted tiny" x="355" y="763">PDF upload</text>
+  <text class="muted tiny" x="355" y="788">document chat</text>
+  <text class="muted tiny" x="355" y="813">file RAG</text>
+
+  <rect class="later" x="570" y="685" width="260" height="155" rx="16"/>
+  <text class="text med" x="635" y="728">Spaces</text>
+  <text class="muted tiny" x="600" y="763">workspaces</text>
+  <text class="muted tiny" x="600" y="788">members</text>
+  <text class="muted tiny" x="600" y="813">shared context</text>
+
+  <rect class="later" x="815" y="685" width="260" height="155" rx="16"/>
+  <text class="text med" x="875" y="728">Sharing</text>
+  <text class="muted tiny" x="845" y="763">public pages</text>
+  <text class="muted tiny" x="845" y="788">read-only answers</text>
+  <text class="muted tiny" x="845" y="813">share links</text>
+
+  <rect class="later" x="1060" y="685" width="260" height="155" rx="16"/>
+  <text class="text med" x="1125" y="728">API</text>
+  <text class="muted tiny" x="1090" y="763">API keys</text>
+  <text class="muted tiny" x="1090" y="788">developer access</text>
+  <text class="muted tiny" x="1090" y="813">rate limits</text>
+
+  <text class="muted tiny" x="80" y="895">Solid boxes: core/near-term. Dashed boxes: advanced SaaS features after the main answer engine works.</text>
+</svg>

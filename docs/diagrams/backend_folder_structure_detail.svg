@@ -1,0 +1,133 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .folder{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .done{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .todo{fill:#211A1A;stroke:#7A3B3B;stroke-width:2}
+      .later{fill:#1A1D27;stroke:#465063;stroke-width:2;stroke-dasharray:8 6}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .green{fill:#20B2AA;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .red{fill:#F87171;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:38px;font-weight:800}
+      .h{font-size:22px;font-weight:800}
+      .s{font-size:16px}
+      .xs{font-size:14px}
+      .line{stroke:#465063;stroke-width:2;fill:none;marker-end:url(#arrow)}
+      .accent{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrowA)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#465063"/>
+    </marker>
+    <marker id="arrowA" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="1200"/>
+  <text class="text title" x="60" y="70">Backend Folder Structure - Detailed Working Map</text>
+  <text class="muted s" x="60" y="105">Green = mostly created/working now. Red = important missing for core product. Dashed = SaaS/advanced later.</text>
+
+  <rect class="done" x="60" y="145" width="300" height="145" rx="14"/>
+  <text class="text h" x="90" y="185">server.js</text>
+  <text class="muted xs" x="90" y="218">Entry point</text>
+  <text class="muted xs" x="90" y="243">loads dotenv</text>
+  <text class="muted xs" x="90" y="268">connects MongoDB + starts app</text>
+
+  <rect class="done" x="430" y="145" width="300" height="145" rx="14"/>
+  <text class="text h" x="460" y="185">src/app.js</text>
+  <text class="muted xs" x="460" y="218">Express app config</text>
+  <text class="muted xs" x="460" y="243">middlewares + routes</text>
+  <text class="muted xs" x="460" y="268">404 + error handler</text>
+
+  <rect class="done" x="800" y="145" width="300" height="145" rx="14"/>
+  <text class="text h" x="830" y="185">config/</text>
+  <text class="muted xs" x="830" y="218">database.js exists</text>
+  <text class="muted xs" x="830" y="243">connects MongoDB</text>
+  <text class="red xs" x="830" y="268">TODO: env.js, cors.js, redis.js</text>
+
+  <rect class="done" x="1170" y="145" width="300" height="145" rx="14"/>
+  <text class="text h" x="1200" y="185">utils/</text>
+  <text class="muted xs" x="1200" y="218">ApiError.js exists</text>
+  <text class="muted xs" x="1200" y="243">asyncHandler.js exists</text>
+  <text class="red xs" x="1200" y="268">TODO: ApiResponse.js</text>
+
+  <rect class="done" x="60" y="350" width="300" height="210" rx="14"/>
+  <text class="text h" x="90" y="390">routes/</text>
+  <text class="green xs" x="90" y="423">auth.routes.js done</text>
+  <text class="red xs" x="90" y="448">search.routes.js missing</text>
+  <text class="red xs" x="90" y="473">chat.routes.js missing</text>
+  <text class="red xs" x="90" y="498">user/settings routes missing</text>
+  <text class="muted xs" x="90" y="523">Purpose: URL endpoints only</text>
+
+  <rect class="done" x="430" y="350" width="300" height="210" rx="14"/>
+  <text class="text h" x="460" y="390">controllers/</text>
+  <text class="green xs" x="460" y="423">auth.controller.js done</text>
+  <text class="red xs" x="460" y="448">search.controller.js missing</text>
+  <text class="red xs" x="460" y="473">chat.controller.js missing</text>
+  <text class="red xs" x="460" y="498">billing/file/space later</text>
+  <text class="muted xs" x="460" y="523">Purpose: request/response logic</text>
+
+  <rect class="todo" x="800" y="350" width="300" height="210" rx="14"/>
+  <text class="text h" x="830" y="390">services/</text>
+  <text class="green xs" x="830" y="423">ai.services.js exists</text>
+  <text class="green xs" x="830" y="448">mail.service.js exists</text>
+  <text class="red xs" x="830" y="473">search/scraper/groq missing</text>
+  <text class="red xs" x="830" y="498">citation/stream/chat missing</text>
+  <text class="muted xs" x="830" y="523">Purpose: real business logic</text>
+
+  <rect class="done" x="1170" y="350" width="300" height="210" rx="14"/>
+  <text class="text h" x="1200" y="390">models/</text>
+  <text class="green xs" x="1200" y="423">user.model.js done</text>
+  <text class="green xs" x="1200" y="448">chat.model.js exists</text>
+  <text class="green xs" x="1200" y="473">message.model.js exists</text>
+  <text class="red xs" x="1200" y="498">source/usage/subscription missing</text>
+  <text class="muted xs" x="1200" y="523">Purpose: MongoDB schemas</text>
+
+  <rect class="done" x="60" y="620" width="300" height="210" rx="14"/>
+  <text class="text h" x="90" y="660">middlewares/</text>
+  <text class="green xs" x="90" y="693">auth.middleware.js done</text>
+  <text class="green xs" x="90" y="718">error.middleware.js done</text>
+  <text class="green xs" x="90" y="743">validator.middleware.js done</text>
+  <text class="red xs" x="90" y="768">rateLimit/upload/subscription missing</text>
+  <text class="muted xs" x="90" y="793">Purpose: reusable request guards</text>
+
+  <rect class="done" x="430" y="620" width="300" height="210" rx="14"/>
+  <text class="text h" x="460" y="660">validators/</text>
+  <text class="green xs" x="460" y="693">auth.validator.js done</text>
+  <text class="red xs" x="460" y="718">search.validator.js missing</text>
+  <text class="red xs" x="460" y="743">chat.validator.js missing</text>
+  <text class="red xs" x="460" y="768">user/billing/file later</text>
+  <text class="muted xs" x="460" y="793">Purpose: validate body/query params</text>
+
+  <rect class="todo" x="800" y="620" width="300" height="210" rx="14"/>
+  <text class="text h" x="830" y="660">lib/</text>
+  <text class="red xs" x="830" y="693">groqClient.js missing</text>
+  <text class="red xs" x="830" y="718">tavilyClient.js missing</text>
+  <text class="red xs" x="830" y="743">redisClient.js missing later</text>
+  <text class="red xs" x="830" y="768">stripeClient.js missing later</text>
+  <text class="muted xs" x="830" y="793">Purpose: configured SDK clients</text>
+
+  <rect class="later" x="1170" y="620" width="300" height="210" rx="14"/>
+  <text class="text h" x="1200" y="660">jobs/ + queues/</text>
+  <text class="muted xs" x="1200" y="693">usageReset.job.js later</text>
+  <text class="muted xs" x="1200" y="718">email.job.js later</text>
+  <text class="muted xs" x="1200" y="743">search.queue.js later</text>
+  <text class="muted xs" x="1200" y="768">BullMQ/Redis when scaling</text>
+  <text class="muted xs" x="1200" y="793">Purpose: background work</text>
+
+  <path class="accent" d="M210 290 V350"/>
+  <path class="accent" d="M580 290 V350"/>
+  <path class="accent" d="M950 290 V350"/>
+  <path class="accent" d="M1320 290 V350"/>
+  <path class="line" d="M360 455 H430"/>
+  <path class="line" d="M730 455 H800"/>
+  <path class="line" d="M1100 455 H1170"/>
+
+  <rect class="folder" x="60" y="900" width="1410" height="205" rx="18"/>
+  <text class="text h" x="95" y="945">How backend folders work together</text>
+  <text class="muted s" x="95" y="985">routes receive the URL -> controllers manage request/response -> validators/middlewares protect input -> services do real logic -> models save/read data -> utils standardize errors/responses.</text>
+  <text class="muted s" x="95" y="1025">For the core product, the highest priority missing folder logic is in services/: search.service.js, scraper.service.js, groq.service.js, citation.service.js, stream.service.js.</text>
+  <text class="muted s" x="95" y="1065">For SaaS, add usage/subscription models and rate limit/subscription middleware before public sharing or billing launch.</text>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif">
+<title>04 — Settings</title>
+<rect width="1440" height="900" fill="#FAFAFA"/>
+<rect x="0" y="0" width="1440" height="50" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="20" y="31" font-size="14" fill="#1A1A1A" font-weight="500" text-anchor="start">YourAI</text>
+<text x="190" y="31" font-size="14" fill="#1967D2" font-weight="500" text-anchor="start">Settings</text>
+<circle cx="1408" cy="25" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1408" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<rect x="0" y="50" width="240" height="850" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="12" y="64" width="216" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="120.0" y="84.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">← Back to App</text>
+<line x1="12" y1="840" x2="228" y2="840" stroke="#CECBC4" stroke-width="0.5"/>
+<circle cx="26" cy="872" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="26" y="878" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<text x="50" y="868" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Manas</text>
+<text x="50" y="882" font-size="10" fill="#9B9994" font-weight="normal" text-anchor="start">Free plan</text>
+<rect x="240" y="50" width="220" height="850" rx="0" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="256" y="80" font-size="13" fill="#1A1A1A" font-weight="500" text-anchor="start">Settings</text>
+<line x1="252" y1="94" x2="448" y2="94" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="256" y="118" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">ACCOUNT</text>
+<rect x="248" y="130" width="204" height="32" rx="6" fill="#E8F0FE" stroke="#1967D2" stroke-width="0.5"/>
+<text x="266" y="151" font-size="12" fill="#1967D2" font-weight="normal" text-anchor="start">Profile</text>
+<rect x="248" y="166" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="187" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Security</text>
+<rect x="248" y="202" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="223" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Notifications</text>
+<rect x="248" y="238" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="259" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Billing</text>
+<text x="256" y="290" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">AI PREFERENCES</text>
+<rect x="248" y="302" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="323" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Models</text>
+<rect x="248" y="338" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="359" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">API Keys</text>
+<rect x="248" y="374" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="395" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Memory</text>
+<rect x="248" y="410" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="431" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Personas</text>
+<text x="256" y="462" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">APP</text>
+<rect x="248" y="474" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="495" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Appearance</text>
+<rect x="248" y="510" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="531" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Privacy</text>
+<rect x="248" y="546" width="204" height="32" rx="6" fill="transparent" stroke="transparent" stroke-width="0.5"/>
+<text x="266" y="567" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Data export</text>
+<text x="492" y="86" font-size="18" fill="#1A1A1A" font-weight="500" text-anchor="start">Profile</text>
+<line x1="484" y1="98" x2="1416" y2="98" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="484" y="112" width="932" height="130" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="500" y="136" font-size="13" fill="#1A1A1A" font-weight="500" text-anchor="start">Account info</text>
+<circle cx="516" cy="188" r="34" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="516" y="201" font-size="27" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<text x="564" y="178" font-size="14" fill="#1A1A1A" font-weight="500" text-anchor="start">Manas Kolhe</text>
+<text x="564" y="198" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">manas@dypatil.edu</text>
+<rect x="564" y="208" width="80" height="24" rx="12" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="604" y="224" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Free plan</text>
+<rect x="1270" y="178" width="120" height="30" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1330.0" y="197.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">Edit profile</text>
+<rect x="484" y="256" width="932" height="200" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="500" y="280" font-size="13" fill="#1A1A1A" font-weight="500" text-anchor="start">Profile details</text>
+<text x="500" y="304" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Display name</text>
+<rect x="660" y="292" width="740" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="670" y="312.0" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="start">Manas Kolhe</text>
+<text x="500" y="348" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Email</text>
+<rect x="660" y="336" width="740" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="670" y="356.0" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="start">manas@dypatil.edu</text>
+<text x="500" y="392" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Username</text>
+<rect x="660" y="380" width="740" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="670" y="400.0" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="start">@manas</text>
+<text x="500" y="436" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Bio</text>
+<rect x="660" y="424" width="740" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="670" y="444.0" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="start">AI student & full-stack dev</text>
+<rect x="1230" y="468" width="130" height="32" rx="6" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5"/>
+<text x="1295.0" y="488.0" font-size="11" fill="#FFFFFF" font-weight="normal" text-anchor="middle">Save changes</text>
+<rect x="1090" y="468" width="110" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1145.0" y="488.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">Cancel</text>
+<rect x="484" y="518" width="932" height="120" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="500" y="542" font-size="13" fill="#1A1A1A" font-weight="500" text-anchor="start">Current plan</text>
+<rect x="500" y="554" width="48" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="524" y="569" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Free</text>
+<text x="500" y="590" font-size="12" fill="#9B9994" font-weight="normal" text-anchor="start">20 searches/day · GPT-3.5 only · No file upload · No API access</text>
+<rect x="500" y="608" width="200" height="32" rx="6" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5"/>
+<text x="600.0" y="628.0" font-size="11" fill="#FFFFFF" font-weight="normal" text-anchor="middle">Upgrade to Pro →</text>
+<rect x="484" y="660" width="932" height="110" rx="10" fill="#FFFFFF" stroke="#C5221F" stroke-width="1"/>
+<text x="500" y="686" font-size="13" fill="#C5221F" font-weight="500" text-anchor="start">Danger zone</text>
+<text x="500" y="706" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">These actions are permanent and cannot be undone.</text>
+<rect x="500" y="720" width="160" height="30" rx="6" fill="#FFFFFF" stroke="#C5221F" stroke-width="0.5"/>
+<text x="580.0" y="739.0" font-size="11" fill="#C5221F" font-weight="normal" text-anchor="middle">Delete all chats</text>
+<rect x="676" y="720" width="160" height="30" rx="6" fill="#FFFFFF" stroke="#C5221F" stroke-width="0.5"/>
+<text x="756.0" y="739.0" font-size="11" fill="#C5221F" font-weight="normal" text-anchor="middle">Delete account</text>
+</svg>

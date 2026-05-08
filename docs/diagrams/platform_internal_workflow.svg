@@ -1,0 +1,114 @@
+<svg width="1400" height="1000" viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .box{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .box2{fill:#1A1D27;stroke:#2B3241;stroke-width:2}
+      .ok{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:36px;font-weight:800}
+      .med{font-size:21px;font-weight:700}
+      .small{font-size:17px}
+      .tiny{font-size:14px}
+      .line{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .soft{stroke:#465063;stroke-width:2;fill:none;marker-end:url(#arrowSoft)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/>
+    </marker>
+    <marker id="arrowSoft" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#465063"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="1000"/>
+  <text class="text title" x="60" y="70">Platform Internal Workflow</text>
+  <text class="muted small" x="60" y="104">How one user question moves through the whole platform</text>
+
+  <rect class="ok" x="80" y="160" width="220" height="90" rx="14"/>
+  <text class="text med" x="125" y="205">1. User Query</text>
+  <text class="muted tiny" x="115" y="230">"What is RAG?"</text>
+
+  <rect class="box" x="390" y="160" width="220" height="90" rx="14"/>
+  <text class="text med" x="430" y="205">2. Frontend</text>
+  <text class="muted tiny" x="425" y="230">sendMessage(query)</text>
+
+  <rect class="box" x="700" y="160" width="220" height="90" rx="14"/>
+  <text class="text med" x="740" y="205">3. API Route</text>
+  <text class="muted tiny" x="735" y="230">POST /api/search</text>
+
+  <rect class="box" x="1010" y="160" width="260" height="90" rx="14"/>
+  <text class="text med" x="1045" y="205">4. Validate + Limit</text>
+  <text class="muted tiny" x="1040" y="230">auth, query, usage</text>
+
+  <path class="line" d="M300 205 H390"/>
+  <path class="line" d="M610 205 H700"/>
+  <path class="line" d="M920 205 H1010"/>
+
+  <rect class="box2" x="1010" y="320" width="260" height="90" rx="14"/>
+  <text class="text med" x="1045" y="365">5. Query Rewrite</text>
+  <text class="muted tiny" x="1040" y="390">better search query</text>
+
+  <rect class="box2" x="700" y="320" width="220" height="90" rx="14"/>
+  <text class="text med" x="750" y="365">6. Search</text>
+  <text class="muted tiny" x="735" y="390">Tavily/Brave/Exa</text>
+
+  <rect class="box2" x="390" y="320" width="220" height="90" rx="14"/>
+  <text class="text med" x="430" y="365">7. Scrape</text>
+  <text class="muted tiny" x="425" y="390">Jina/Firecrawl</text>
+
+  <rect class="box2" x="80" y="320" width="220" height="90" rx="14"/>
+  <text class="text med" x="120" y="365">8. Sources</text>
+  <text class="muted tiny" x="115" y="390">number [1], [2]</text>
+
+  <path class="line" d="M1140 250 V320"/>
+  <path class="line" d="M1010 365 H920"/>
+  <path class="line" d="M700 365 H610"/>
+  <path class="line" d="M390 365 H300"/>
+
+  <rect class="box2" x="80" y="500" width="220" height="90" rx="14"/>
+  <text class="text med" x="120" y="545">9. Prompt</text>
+  <text class="muted tiny" x="112" y="570">query + sources</text>
+
+  <rect class="box2" x="390" y="500" width="220" height="90" rx="14"/>
+  <text class="text med" x="430" y="545">10. LLM</text>
+  <text class="muted tiny" x="425" y="570">Groq/OpenAI/Claude</text>
+
+  <rect class="box2" x="700" y="500" width="220" height="90" rx="14"/>
+  <text class="text med" x="735" y="545">11. Stream</text>
+  <text class="muted tiny" x="735" y="570">SSE token events</text>
+
+  <rect class="box2" x="1010" y="500" width="260" height="90" rx="14"/>
+  <text class="text med" x="1045" y="545">12. Save</text>
+  <text class="muted tiny" x="1040" y="570">MongoDB chat data</text>
+
+  <path class="line" d="M190 410 V500"/>
+  <path class="line" d="M300 545 H390"/>
+  <path class="line" d="M610 545 H700"/>
+  <path class="line" d="M920 545 H1010"/>
+
+  <rect class="ok" x="1010" y="680" width="260" height="90" rx="14"/>
+  <text class="text med" x="1045" y="725">13. Render UI</text>
+  <text class="muted tiny" x="1040" y="750">answer + citations</text>
+
+  <rect class="box" x="700" y="680" width="220" height="90" rx="14"/>
+  <text class="text med" x="735" y="725">SourcePanel</text>
+  <text class="muted tiny" x="735" y="750">source cards</text>
+
+  <rect class="box" x="390" y="680" width="220" height="90" rx="14"/>
+  <text class="text med" x="425" y="725">ChatThread</text>
+  <text class="muted tiny" x="425" y="750">messages</text>
+
+  <rect class="box" x="80" y="680" width="220" height="90" rx="14"/>
+  <text class="text med" x="120" y="725">Follow Up</text>
+  <text class="muted tiny" x="115" y="750">ask next question</text>
+
+  <path class="line" d="M1140 590 V680"/>
+  <path class="soft" d="M1010 725 H920"/>
+  <path class="soft" d="M700 725 H610"/>
+  <path class="soft" d="M390 725 H300"/>
+
+  <rect class="box" x="80" y="850" width="1190" height="80" rx="16"/>
+  <text class="text small" x="115" y="895">Loop: every follow-up repeats the same pipeline, but also sends previous chat context so the answer stays conversational.</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .panel{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .panel2{fill:#1A1D27;stroke:#2B3241;stroke-width:2}
+      .accent{fill:#20B2AA}
+      .accent-stroke{stroke:#20B2AA;stroke-width:3;fill:none}
+      .muted{fill:#A7ADB8}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .small{font-size:18px}
+      .med{font-size:22px;font-weight:700}
+      .title{font-size:36px;font-weight:800}
+      .tiny{font-size:15px}
+      .line{stroke:#465063;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+      .lineAccent{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrowAccent)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#465063"/>
+    </marker>
+    <marker id="arrowAccent" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="900"/>
+  <text class="text title" x="60" y="70">Backend Architecture</text>
+  <text class="muted small" x="60" y="104">Express + MongoDB + Search + Scraping + LLM + SaaS controls</text>
+
+  <rect class="panel" x="60" y="150" width="260" height="155" rx="14"/>
+  <text class="text med" x="90" y="195">Client Request</text>
+  <text class="muted small" x="90" y="232">POST /api/search</text>
+  <text class="muted small" x="90" y="260">{ query, mode, model }</text>
+
+  <rect class="panel" x="420" y="135" width="300" height="190" rx="14"/>
+  <text class="text med" x="450" y="180">Express App</text>
+  <text class="muted small" x="450" y="218">app.js</text>
+  <text class="muted small" x="450" y="246">CORS, JSON, cookies</text>
+  <text class="muted small" x="450" y="274">routes + error handler</text>
+
+  <rect class="panel2" x="825" y="90" width="260" height="135" rx="14"/>
+  <text class="text med" x="855" y="132">Auth Layer</text>
+  <text class="muted tiny" x="855" y="164">auth.routes.js</text>
+  <text class="muted tiny" x="855" y="188">auth.controller.js</text>
+
+  <rect class="panel2" x="825" y="255" width="260" height="175" rx="14"/>
+  <text class="text med" x="855" y="297">Search Layer</text>
+  <text class="muted tiny" x="855" y="329">search.routes.js</text>
+  <text class="muted tiny" x="855" y="353">search.controller.js</text>
+  <text class="muted tiny" x="855" y="377">search.validator.js</text>
+
+  <rect class="panel2" x="825" y="465" width="260" height="160" rx="14"/>
+  <text class="text med" x="855" y="507">Chat Layer</text>
+  <text class="muted tiny" x="855" y="539">chat.routes.js</text>
+  <text class="muted tiny" x="855" y="563">chat.controller.js</text>
+  <text class="muted tiny" x="855" y="587">chat.service.js</text>
+
+  <rect class="panel2" x="825" y="660" width="260" height="135" rx="14"/>
+  <text class="text med" x="855" y="702">SaaS Layer</text>
+  <text class="muted tiny" x="855" y="734">usage, billing</text>
+  <text class="muted tiny" x="855" y="758">limits, roles</text>
+
+  <rect class="panel" x="1165" y="90" width="175" height="135" rx="14"/>
+  <text class="text med" x="1195" y="132">MongoDB</text>
+  <text class="muted tiny" x="1195" y="164">users</text>
+  <text class="muted tiny" x="1195" y="188">chats</text>
+
+  <rect class="panel" x="1165" y="255" width="175" height="175" rx="14"/>
+  <text class="text med" x="1195" y="297">Search API</text>
+  <text class="muted tiny" x="1195" y="329">Tavily</text>
+  <text class="muted tiny" x="1195" y="353">Brave</text>
+  <text class="muted tiny" x="1195" y="377">Exa</text>
+
+  <rect class="panel" x="1165" y="465" width="175" height="160" rx="14"/>
+  <text class="text med" x="1195" y="507">Scraper</text>
+  <text class="muted tiny" x="1195" y="539">Jina Reader</text>
+  <text class="muted tiny" x="1195" y="563">Firecrawl</text>
+
+  <rect class="panel" x="1165" y="660" width="175" height="135" rx="14"/>
+  <text class="text med" x="1195" y="702">LLM</text>
+  <text class="muted tiny" x="1195" y="734">Groq</text>
+  <text class="muted tiny" x="1195" y="758">OpenAI/Claude</text>
+
+  <path class="lineAccent" d="M320 228 H420"/>
+  <path class="lineAccent" d="M720 230 C765 230 775 157 825 157"/>
+  <path class="lineAccent" d="M720 230 H825"/>
+  <path class="lineAccent" d="M720 230 C770 230 780 545 825 545"/>
+  <path class="lineAccent" d="M720 230 C760 230 780 728 825 728"/>
+
+  <path class="line" d="M1085 157 H1165"/>
+  <path class="line" d="M1085 342 H1165"/>
+  <path class="line" d="M1085 545 H1165"/>
+  <path class="line" d="M1085 728 H1165"/>
+
+  <rect class="panel2" x="60" y="385" width="660" height="410" rx="16"/>
+  <text class="text med" x="95" y="432">Core Backend Services To Create</text>
+  <text class="muted small" x="95" y="477">1. search.service.js - calls Tavily/Brave/Exa</text>
+  <text class="muted small" x="95" y="512">2. scraper.service.js - extracts source content</text>
+  <text class="muted small" x="95" y="547">3. groq.service.js - generates cited answer</text>
+  <text class="muted small" x="95" y="582">4. citation.service.js - validates [1], [2], [3]</text>
+  <text class="muted small" x="95" y="617">5. stream.service.js - sends SSE token events</text>
+  <text class="muted small" x="95" y="652">6. chat.service.js - saves chats/messages/sources</text>
+  <text class="muted small" x="95" y="687">7. usage.service.js - tracks free/pro limits</text>
+  <text class="muted small" x="95" y="722">8. cache.service.js - Redis later for speed/cost</text>
+
+  <rect x="60" y="830" width="1280" height="3" fill="#20B2AA"/>
+  <text class="muted tiny" x="60" y="865">Core backend success line: query -> search -> scrape -> cite -> generate -> stream -> save</text>
+</svg>

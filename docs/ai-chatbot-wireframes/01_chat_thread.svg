@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif">
+<title>01 — Chat Thread</title>
+<rect width="1440" height="900" fill="#FAFAFA"/>
+<rect x="0" y="0" width="1440" height="50" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="20" y="31" font-size="14" fill="#1A1A1A" font-weight="500" text-anchor="start">YourAI</text>
+<text x="140" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Home</text>
+<text x="230" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Library</text>
+<text x="320" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Discover</text>
+<circle cx="1408" cy="25" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1408" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<rect x="1370" y="13" width="26" height="26" rx="4" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1383" y="30" font-size="14" fill="#555551" font-weight="normal" text-anchor="middle">⚙</text>
+<rect x="0" y="50" width="240" height="850" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="12" y="64" width="216" height="36" rx="6" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5"/>
+<text x="120.0" y="86.0" font-size="11" fill="#FFFFFF" font-weight="normal" text-anchor="middle">+ New Chat</text>
+<line x1="12" y1="112" x2="228" y2="112" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="12" y="132" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">TODAY</text>
+<rect x="8" y="138" width="224" height="34" rx="6" fill="#E8F0FE" stroke="#1967D2" stroke-width="1"/>
+<text x="32" y="160" font-size="11" fill="#1967D2" font-weight="normal" text-anchor="start">What is RAG in LLMs?</text>
+<rect x="8" y="180" width="224" height="34" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="32" y="201" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Build a MERN app with auth</text>
+<rect x="8" y="218" width="224" height="34" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="32" y="239" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">SIH 2024 problem ideas</text>
+<rect x="8" y="256" width="224" height="34" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="32" y="277" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Best anime Fall 2024</text>
+<rect x="8" y="294" width="224" height="34" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="32" y="315" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Explain transformers in NLP</text>
+<line x1="12" y1="342" x2="228" y2="342" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="12" y="362" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">SPACES</text>
+<rect x="8" y="368" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="388" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">AI Projects</text>
+<rect x="8" y="404" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="424" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Learning</text>
+<rect x="8" y="440" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="460" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Content Ideas</text>
+<line x1="12" y1="840" x2="228" y2="840" stroke="#CECBC4" stroke-width="0.5"/>
+<circle cx="26" cy="872" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="26" y="878" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<text x="50" y="868" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Manas</text>
+<text x="50" y="882" font-size="10" fill="#9B9994" font-weight="normal" text-anchor="start">Free plan</text>
+<rect x="240" y="50" width="840" height="50" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="260" y="81" font-size="13" fill="#1A1A1A" font-weight="500" text-anchor="start">What is RAG in large language models?</text>
+<rect x="1012" y="62" width="26" height="26" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1025" y="80" font-size="14" fill="#555551" font-weight="normal" text-anchor="middle">↗</text>
+<rect x="1044" y="62" width="26" height="26" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1057" y="80" font-size="16" fill="#555551" font-weight="normal" text-anchor="middle">⋯</text>
+<rect x="240" y="100" width="840" height="730" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0"/>
+<rect x="630" y="120" width="430" height="44" rx="18" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="640" y="147" font-size="12" fill="#1A1A1A" font-weight="normal" text-anchor="start">What is RAG in large language models?</text>
+<circle cx="266" cy="200" r="20" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="266" y="208" font-size="16" fill="#555551" font-weight="normal" text-anchor="middle">AI</text>
+<rect x="300" y="178" width="580" height="260" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="316" y="194" width="540" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="316" y="208" width="500" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="316" y="222" width="520" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="316" y="236" width="480" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="316" y="268" width="124" height="22" rx="11" fill="#E8F0FE" stroke="#1967D2" stroke-width="0.5"/>
+<text x="378" y="283" font-size="10" fill="#1967D2" font-weight="normal" text-anchor="middle">¹ arxiv.org</text>
+<rect x="452" y="268" width="124" height="22" rx="11" fill="#E8F0FE" stroke="#1967D2" stroke-width="0.5"/>
+<text x="514" y="283" font-size="10" fill="#1967D2" font-weight="normal" text-anchor="middle">² langchain.com</text>
+<rect x="588" y="268" width="124" height="22" rx="11" fill="#E8F0FE" stroke="#1967D2" stroke-width="0.5"/>
+<text x="650" y="283" font-size="10" fill="#1967D2" font-weight="normal" text-anchor="middle">³ huggingface.co</text>
+<rect x="316" y="300" width="556" height="100" rx="6" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="328" y="316" font-size="9" fill="#9B9994" font-weight="normal" text-anchor="start">Python</text>
+<rect x="328" y="324" width="480" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="328" y="338" width="380" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="328" y="352" width="440" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="328" y="366" width="360" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="300" y="450" width="90" height="28" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="345" y="468" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Copy</text>
+<rect x="400" y="450" width="90" height="28" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="445" y="468" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Regenerate</text>
+<rect x="500" y="450" width="90" height="28" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="545" y="468" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Thumbs up</text>
+<rect x="600" y="450" width="90" height="28" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="645" y="468" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Thumbs down</text>
+<rect x="700" y="450" width="90" height="28" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="745" y="468" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Read aloud</text>
+<text x="300" y="500" font-size="10" fill="#9B9994" font-weight="normal" text-anchor="start">Suggested follow-ups</text>
+<rect x="300" y="510" width="260.5" height="28" rx="14" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="430.25" y="528" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">How does RAG differ from fine-tuning?</text>
+<rect x="530" y="510" width="228.0" height="28" rx="14" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="644.0" y="528" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Show a Python RAG implementation</text>
+<rect x="760" y="510" width="169.5" height="28" rx="14" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="844.75" y="528" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Best vector DBs for RAG</text>
+<rect x="240" y="830" width="840" height="70" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<line x1="240" y1="830" x2="1080" y2="830" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="260" y="842" width="65.5" height="24" rx="12" fill="#E8F0FE" stroke="#1967D2" stroke-width="1"/>
+<text x="292.75" y="857" font-size="11" fill="#1967D2" font-weight="normal" text-anchor="middle">Web: ON</text>
+<rect x="370" y="842" width="59.0" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="399.5" y="857" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">GPT-4o</text>
+<rect x="437.0" y="842" width="85.0" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="479.5" y="857" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Focus: Web</text>
+<rect x="260" y="864" width="760" height="28" rx="14" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="276" y="882" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="start">Ask a follow-up…</text>
+<rect x="1028" y="858" width="34" height="34" rx="17" fill="#1A1A1A" stroke="none" stroke-width="0.5"/>
+<text x="1045" y="880" font-size="14" fill="#FFFFFF" font-weight="bold" text-anchor="middle">↑</text>
+<rect x="1080" y="50" width="360" height="850" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1096" y="78" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Sources</text>
+<rect x="1160" y="64" width="52" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1186" y="79" font-size="9" fill="#555551" font-weight="normal" text-anchor="middle">3 found</text>
+<rect x="1092" y="100" width="336" height="70" rx="8" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="1102" y="110" width="18" height="18" rx="3" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1126" y="123" font-size="11" fill="#1A1A1A" font-weight="500" text-anchor="start">arxiv.org</text>
+<rect x="1102" y="132" width="304" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="1102" y="146" width="280" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="1092" y="178" width="336" height="70" rx="8" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="1102" y="188" width="18" height="18" rx="3" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1126" y="201" font-size="11" fill="#1A1A1A" font-weight="500" text-anchor="start">langchain.com</text>
+<rect x="1102" y="210" width="304" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="1102" y="224" width="280" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="1092" y="256" width="336" height="70" rx="8" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="1102" y="266" width="18" height="18" rx="3" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1126" y="279" font-size="11" fill="#1A1A1A" font-weight="500" text-anchor="start">huggingface.co</text>
+<rect x="1102" y="288" width="304" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<rect x="1102" y="302" width="280" height="9" rx="2" fill="#E6E4DF" stroke="none" stroke-width="0.5"/>
+<line x1="1092" y1="334" x2="1428" y2="334" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1096" y="352" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Related threads</text>
+<rect x="1092" y="360" width="336" height="36" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1102" y="382" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Vector databases explained</text>
+<rect x="1092" y="402" width="336" height="36" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1102" y="424" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">LLM evaluation metrics</text>
+<rect x="1092" y="444" width="336" height="36" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1102" y="466" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Fine-tuning vs prompting</text>
+<line x1="1092" y1="492" x2="1428" y2="492" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1096" y="510" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Web preview</text>
+<rect x="1092" y="518" width="336" height="110" rx="8" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<line x1="1092" y1="518" x2="1428" y2="628" stroke="#B0ADA6" stroke-width="0.5"/>
+<line x1="1428" y1="518" x2="1092" y2="628" stroke="#B0ADA6" stroke-width="0.5"/>
+<text x="1260.0" y="577.0" font-size="10" fill="#9B9994" font-weight="normal" text-anchor="middle">OG Image / Preview</text>
+<line x1="1092" y1="640" x2="1428" y2="640" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1096" y="658" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Export</text>
+<rect x="1092" y="666" width="80" height="30" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1132.0" y="685.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">PDF</text>
+<rect x="1180" y="666" width="94" height="30" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1227.0" y="685.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">Share link</text>
+<rect x="1282" y="666" width="80" height="30" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1322.0" y="685.0" font-size="11" fill="#1A1A1A" font-weight="normal" text-anchor="middle">.md</text>
+<rect x="0" y="886" width="180" height="18" rx="3" fill="#FFFDE7" stroke="#F9A825" stroke-width="0.5"/>
+<text x="5" y="900" font-size="9" fill="#E65100" font-weight="normal" text-anchor="start">▲ Sidebar 240px</text>
+<rect x="240" y="886" width="200" height="18" rx="3" fill="#FFFDE7" stroke="#F9A825" stroke-width="0.5"/>
+<text x="245" y="900" font-size="9" fill="#E65100" font-weight="normal" text-anchor="start">▲ Chat main (flex-grow)</text>
+<rect x="1080" y="886" width="200" height="18" rx="3" fill="#FFFDE7" stroke="#F9A825" stroke-width="0.5"/>
+<text x="1085" y="900" font-size="9" fill="#E65100" font-weight="normal" text-anchor="start">▲ Right panel 360px</text>
+</svg>

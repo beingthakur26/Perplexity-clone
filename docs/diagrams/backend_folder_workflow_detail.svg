@@ -1,0 +1,107 @@
+<svg width="1600" height="1050" viewBox="0 0 1600 1050" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .box{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .svc{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .data{fill:#1A1D27;stroke:#465063;stroke-width:2}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:38px;font-weight:800}
+      .h{font-size:21px;font-weight:800}
+      .s{font-size:16px}
+      .xs{font-size:14px}
+      .line{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .soft{stroke:#465063;stroke-width:2;fill:none;marker-end:url(#arrowS)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/></marker>
+    <marker id="arrowS" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#465063"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="1050"/>
+  <text class="text title" x="60" y="70">Backend Folder Workflow - One Search Request</text>
+  <text class="muted s" x="60" y="105">This diagram shows exactly how backend folders participate when a user asks a question.</text>
+
+  <rect class="box" x="70" y="160" width="210" height="105" rx="14"/>
+  <text class="text h" x="105" y="205">Client</text>
+  <text class="muted xs" x="100" y="232">POST /api/search</text>
+
+  <rect class="box" x="350" y="160" width="210" height="105" rx="14"/>
+  <text class="text h" x="392" y="205">routes/</text>
+  <text class="muted xs" x="380" y="232">search.routes.js</text>
+
+  <rect class="box" x="630" y="160" width="210" height="105" rx="14"/>
+  <text class="text h" x="660" y="205">middlewares/</text>
+  <text class="muted xs" x="660" y="232">auth + rate limit</text>
+
+  <rect class="box" x="910" y="160" width="210" height="105" rx="14"/>
+  <text class="text h" x="948" y="205">validators/</text>
+  <text class="muted xs" x="950" y="232">search.validator.js</text>
+
+  <rect class="box" x="1190" y="160" width="260" height="105" rx="14"/>
+  <text class="text h" x="1230" y="205">controllers/</text>
+  <text class="muted xs" x="1230" y="232">search.controller.js</text>
+
+  <path class="line" d="M280 212 H350"/>
+  <path class="line" d="M560 212 H630"/>
+  <path class="line" d="M840 212 H910"/>
+  <path class="line" d="M1120 212 H1190"/>
+
+  <rect class="svc" x="90" y="375" width="240" height="120" rx="14"/>
+  <text class="text h" x="125" y="418">services/</text>
+  <text class="muted xs" x="120" y="446">queryRewrite.service.js</text>
+  <text class="muted xs" x="120" y="471">improves query</text>
+
+  <rect class="svc" x="390" y="375" width="240" height="120" rx="14"/>
+  <text class="text h" x="430" y="418">services/</text>
+  <text class="muted xs" x="420" y="446">search.service.js</text>
+  <text class="muted xs" x="420" y="471">Tavily/Brave/Exa</text>
+
+  <rect class="svc" x="690" y="375" width="240" height="120" rx="14"/>
+  <text class="text h" x="730" y="418">services/</text>
+  <text class="muted xs" x="720" y="446">scraper.service.js</text>
+  <text class="muted xs" x="720" y="471">Jina/Firecrawl</text>
+
+  <rect class="svc" x="990" y="375" width="240" height="120" rx="14"/>
+  <text class="text h" x="1030" y="418">services/</text>
+  <text class="muted xs" x="1020" y="446">citation.service.js</text>
+  <text class="muted xs" x="1020" y="471">number + validate</text>
+
+  <rect class="svc" x="1290" y="375" width="240" height="120" rx="14"/>
+  <text class="text h" x="1330" y="418">services/</text>
+  <text class="muted xs" x="1320" y="446">groq.service.js</text>
+  <text class="muted xs" x="1320" y="471">LLM answer</text>
+
+  <path class="line" d="M1320 265 C1320 320 210 320 210 375"/>
+  <path class="line" d="M330 435 H390"/>
+  <path class="line" d="M630 435 H690"/>
+  <path class="line" d="M930 435 H990"/>
+  <path class="line" d="M1230 435 H1290"/>
+
+  <rect class="svc" x="330" y="620" width="270" height="120" rx="14"/>
+  <text class="text h" x="375" y="663">services/</text>
+  <text class="muted xs" x="365" y="691">stream.service.js</text>
+  <text class="muted xs" x="365" y="716">SSE token events</text>
+
+  <rect class="data" x="690" y="620" width="270" height="120" rx="14"/>
+  <text class="text h" x="735" y="663">models/</text>
+  <text class="muted xs" x="725" y="691">Chat, Message, Source</text>
+  <text class="muted xs" x="725" y="716">MongoDB persistence</text>
+
+  <rect class="data" x="1050" y="620" width="270" height="120" rx="14"/>
+  <text class="text h" x="1095" y="663">utils/</text>
+  <text class="muted xs" x="1085" y="691">ApiError / ApiResponse</text>
+  <text class="muted xs" x="1085" y="716">standard output</text>
+
+  <path class="line" d="M1410 495 C1410 570 465 570 465 620"/>
+  <path class="soft" d="M600 680 H690"/>
+  <path class="soft" d="M960 680 H1050"/>
+
+  <rect class="box" x="480" y="850" width="640" height="105" rx="14"/>
+  <text class="text h" x="575" y="895">Frontend receives streamed response</text>
+  <text class="muted xs" x="560" y="922">sources event -> token events -> done event -> render answer + citations</text>
+
+  <path class="line" d="M465 740 C465 820 800 800 800 850"/>
+  <path class="soft" d="M825 740 V850"/>
+
+  <text class="muted xs" x="70" y="1010">Rule: controllers should stay thin. Most logic belongs in services. Models only define data shape. Routes only define URLs.</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg width="1600" height="1050" viewBox="0 0 1600 1050" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .box{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .feat{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .ui{fill:#1A1D27;stroke:#465063;stroke-width:2}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:38px;font-weight:800}
+      .h{font-size:21px;font-weight:800}
+      .s{font-size:16px}
+      .xs{font-size:14px}
+      .line{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .soft{stroke:#465063;stroke-width:2;fill:none;marker-end:url(#arrowS)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/></marker>
+    <marker id="arrowS" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#465063"/></marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="1050"/>
+  <text class="text title" x="60" y="70">Frontend Folder Workflow - User Asks A Question</text>
+  <text class="muted s" x="60" y="105">This diagram shows which frontend folders/files are involved in the main product action.</text>
+
+  <rect class="box" x="70" y="160" width="220" height="105" rx="14"/>
+  <text class="text h" x="105" y="205">app/</text>
+  <text class="muted xs" x="100" y="232">routes user to Home</text>
+
+  <rect class="box" x="370" y="160" width="220" height="105" rx="14"/>
+  <text class="text h" x="405" y="205">layout/</text>
+  <text class="muted xs" x="400" y="232">AppLayout + Sidebar</text>
+
+  <rect class="feat" x="670" y="160" width="220" height="105" rx="14"/>
+  <text class="text h" x="705" y="205">chat/pages/</text>
+  <text class="muted xs" x="700" y="232">Home.jsx</text>
+
+  <rect class="ui" x="970" y="160" width="220" height="105" rx="14"/>
+  <text class="text h" x="1005" y="205">chat/components/</text>
+  <text class="muted xs" x="1000" y="232">ChatInput.jsx</text>
+
+  <rect class="feat" x="1270" y="160" width="220" height="105" rx="14"/>
+  <text class="text h" x="1305" y="205">chat/hook/</text>
+  <text class="muted xs" x="1300" y="232">useChat.js</text>
+
+  <path class="line" d="M290 212 H370"/>
+  <path class="line" d="M590 212 H670"/>
+  <path class="line" d="M890 212 H970"/>
+  <path class="line" d="M1190 212 H1270"/>
+
+  <rect class="feat" x="1270" y="350" width="220" height="105" rx="14"/>
+  <text class="text h" x="1305" y="395">chat/service/</text>
+  <text class="muted xs" x="1300" y="422">chat.api.js</text>
+
+  <rect class="ui" x="970" y="350" width="220" height="105" rx="14"/>
+  <text class="text h" x="1005" y="395">lib/</text>
+  <text class="muted xs" x="1000" y="422">axios.js</text>
+
+  <rect class="box" x="670" y="350" width="220" height="105" rx="14"/>
+  <text class="text h" x="705" y="395">Backend</text>
+  <text class="muted xs" x="700" y="422">/api/search/stream</text>
+
+  <rect class="feat" x="370" y="350" width="220" height="105" rx="14"/>
+  <text class="text h" x="405" y="395">chat.slice.js</text>
+  <text class="muted xs" x="400" y="422">state updates</text>
+
+  <path class="line" d="M1380 265 V350"/>
+  <path class="line" d="M1270 402 H1190"/>
+  <path class="line" d="M970 402 H890"/>
+  <path class="line" d="M670 402 H590"/>
+
+  <rect class="feat" x="70" y="560" width="240" height="130" rx="14"/>
+  <text class="text h" x="105" y="603">chat/pages/</text>
+  <text class="muted xs" x="100" y="632">ChatThread.jsx</text>
+  <text class="muted xs" x="100" y="657">shows result page</text>
+
+  <rect class="ui" x="380" y="560" width="240" height="130" rx="14"/>
+  <text class="text h" x="415" y="603">StreamingAnswer</text>
+  <text class="muted xs" x="410" y="632">renders live tokens</text>
+  <text class="muted xs" x="410" y="657">markdown output</text>
+
+  <rect class="ui" x="690" y="560" width="240" height="130" rx="14"/>
+  <text class="text h" x="725" y="603">CitationBadge</text>
+  <text class="muted xs" x="720" y="632">turns [1] into badge</text>
+  <text class="muted xs" x="720" y="657">links to source</text>
+
+  <rect class="ui" x="1000" y="560" width="240" height="130" rx="14"/>
+  <text class="text h" x="1035" y="603">SourcePanel</text>
+  <text class="muted xs" x="1030" y="632">shows source cards</text>
+  <text class="muted xs" x="1030" y="657">right side desktop</text>
+
+  <rect class="ui" x="1290" y="560" width="220" height="130" rx="14"/>
+  <text class="text h" x="1325" y="603">Sidebar</text>
+  <text class="muted xs" x="1320" y="632">recent chats</text>
+  <text class="muted xs" x="1320" y="657">new chat button</text>
+
+  <path class="line" d="M480 455 C480 515 190 500 190 560"/>
+  <path class="soft" d="M310 625 H380"/>
+  <path class="soft" d="M620 625 H690"/>
+  <path class="soft" d="M930 625 H1000"/>
+  <path class="soft" d="M1240 625 H1290"/>
+
+  <rect class="box" x="170" y="820" width="1260" height="110" rx="16"/>
+  <text class="text h" x="205" y="865">Frontend working rule</text>
+  <text class="muted s" x="205" y="900">Pages compose the screen. Components render UI pieces. Hooks manage behavior/state. Service files call APIs. lib/ stores shared API clients and parsers.</text>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" font-family="Inter,-apple-system,BlinkMacSystemFont,sans-serif">
+<title>02 — Home / New Search</title>
+<rect width="1440" height="900" fill="#FAFAFA"/>
+<rect x="0" y="0" width="1440" height="50" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="20" y="31" font-size="14" fill="#1A1A1A" font-weight="500" text-anchor="start">YourAI</text>
+<text x="140" y="31" font-size="12" fill="#1967D2" font-weight="normal" text-anchor="start">Home</text>
+<rect x="138" y="43" width="36" height="2" rx="1" fill="#1967D2" stroke="none" stroke-width="0.5"/>
+<text x="230" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Library</text>
+<text x="320" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="start">Discover</text>
+<circle cx="1408" cy="25" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1408" y="31" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<rect x="0" y="50" width="240" height="850" rx="0" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<rect x="12" y="64" width="216" height="36" rx="6" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5"/>
+<text x="120.0" y="86.0" font-size="11" fill="#FFFFFF" font-weight="normal" text-anchor="middle">+ New Chat</text>
+<line x1="12" y1="112" x2="228" y2="112" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="12" y="132" font-size="9" fill="#9B9994" font-weight="500" text-anchor="start">RECENT</text>
+<rect x="8" y="138" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="158" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">What is RAG in LLMs?</text>
+<rect x="8" y="174" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="194" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">Build a MERN app with auth</text>
+<rect x="8" y="210" width="224" height="32" rx="6" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="30" y="230" font-size="11" fill="#555551" font-weight="normal" text-anchor="start">SIH 2024 problem ideas</text>
+<line x1="12" y1="840" x2="228" y2="840" stroke="#CECBC4" stroke-width="0.5"/>
+<circle cx="26" cy="872" r="16" fill="#E6E4DF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="26" y="878" font-size="12" fill="#555551" font-weight="normal" text-anchor="middle">M</text>
+<text x="50" y="868" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Manas</text>
+<text x="50" y="882" font-size="10" fill="#9B9994" font-weight="normal" text-anchor="start">Free plan</text>
+<text x="840" y="190" font-size="28" fill="#1A1A1A" font-weight="500" text-anchor="middle">What do you want to know?</text>
+<text x="840" y="220" font-size="14" fill="#555551" font-weight="normal" text-anchor="middle">Ask anything — AI searches the web and cites real sources</text>
+<rect x="500" y="244" width="680" height="60" rx="30" fill="#FFFFFF" stroke="#CECBC4" stroke-width="1"/>
+<text x="524" y="280" font-size="14" fill="#9B9994" font-weight="normal" text-anchor="start">Ask anything…</text>
+<rect x="1034" y="258" width="28" height="30" rx="4" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="1048" y="278" font-size="14" fill="#555551" font-weight="normal" text-anchor="middle">🎤</text>
+<rect x="1068" y="254" width="100" height="40" rx="20" fill="#1A1A1A" stroke="none" stroke-width="0.5"/>
+<text x="1118" y="279" font-size="13" fill="#FFFFFF" font-weight="normal" text-anchor="middle">Ask  →</text>
+<rect x="620" y="322" width="56" height="24" rx="12" fill="#E8F0FE" stroke="#1967D2" stroke-width="1"/>
+<text x="648.0" y="337" font-size="11" fill="#1967D2" font-weight="normal" text-anchor="middle">Web</text>
+<rect x="684" y="322" width="56" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="712.0" y="337" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Code</text>
+<rect x="748" y="322" width="56" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="776.0" y="337" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Math</text>
+<rect x="812" y="322" width="65.5" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="844.75" y="337" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Writing</text>
+<rect x="885.5" y="322" width="72.0" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="921.5" y="337" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Research</text>
+<text x="840" y="380" font-size="12" fill="#9B9994" font-weight="normal" text-anchor="middle">Model:</text>
+<rect x="676" y="390" width="59.0" height="24" rx="12" fill="#E8F0FE" stroke="#1967D2" stroke-width="1"/>
+<text x="705.5" y="405" font-size="11" fill="#1967D2" font-weight="normal" text-anchor="middle">GPT-4o</text>
+<rect x="743.0" y="390" width="85.0" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="785.5" y="405" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Claude 3.5</text>
+<rect x="836.0" y="390" width="85.0" height="24" rx="12" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="878.5" y="405" font-size="11" fill="#555551" font-weight="normal" text-anchor="middle">Gemini 1.5</text>
+<text x="960" y="405" font-size="11" fill="#1967D2" font-weight="normal" text-anchor="start">Web: ON</text>
+<line x1="500" y1="430" x2="1180" y2="430" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="840" y="452" font-size="11" fill="#9B9994" font-weight="normal" text-anchor="middle">Try these prompts</text>
+<rect x="534" y="462" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="546" y="490" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Latest AI breakthroughs</text>
+<rect x="546" y="510" width="86" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="589" y="525" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Technology</text>
+<rect x="742" y="462" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="754" y="490" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">How does RLHF work?</text>
+<rect x="754" y="510" width="65" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="786" y="525" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Explain</text>
+<rect x="950" y="462" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="962" y="490" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">React custom hook for auth</text>
+<rect x="962" y="510" width="44" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="984" y="525" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Code</text>
+<rect x="534" y="556" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="546" y="584" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Best anime Fall 2024</text>
+<rect x="546" y="604" width="72" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="582" y="619" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Discover</text>
+<rect x="742" y="556" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="754" y="584" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Summarize research paper</text>
+<rect x="754" y="604" width="72" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="790" y="619" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Research</text>
+<rect x="950" y="556" width="196" height="82" rx="10" fill="#FFFFFF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="962" y="584" font-size="12" fill="#1A1A1A" font-weight="500" text-anchor="start">Plan a trip to Pune</text>
+<rect x="962" y="604" width="58" height="22" rx="11" fill="#F0F0EF" stroke="#CECBC4" stroke-width="0.5"/>
+<text x="991" y="619" font-size="10" fill="#555551" font-weight="normal" text-anchor="middle">Travel</text>
+</svg>

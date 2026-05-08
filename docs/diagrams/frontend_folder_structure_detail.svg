@@ -1,0 +1,127 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0F1117}
+      .done{fill:#123B38;stroke:#20B2AA;stroke-width:2}
+      .todo{fill:#211A1A;stroke:#7A3B3B;stroke-width:2}
+      .box{fill:#161A22;stroke:#2B3241;stroke-width:2}
+      .later{fill:#1A1D27;stroke:#465063;stroke-width:2;stroke-dasharray:8 6}
+      .text{fill:#F3F5F7;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .muted{fill:#A7ADB8;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .green{fill:#20B2AA;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .red{fill:#F87171;font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:38px;font-weight:800}
+      .h{font-size:22px;font-weight:800}
+      .s{font-size:16px}
+      .xs{font-size:14px}
+      .line{stroke:#465063;stroke-width:2;fill:none;marker-end:url(#arrow)}
+      .accent{stroke:#20B2AA;stroke-width:3;fill:none;marker-end:url(#arrowA)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#465063"/></marker>
+    <marker id="arrowA" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#20B2AA"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="1200"/>
+  <text class="text title" x="60" y="70">Frontend Folder Structure - Detailed Working Map</text>
+  <text class="muted s" x="60" y="105">Green = implemented/started. Red = created but mostly empty or missing. Dashed = advanced later.</text>
+
+  <rect class="done" x="60" y="145" width="300" height="150" rx="14"/>
+  <text class="text h" x="90" y="185">main.jsx</text>
+  <text class="muted xs" x="90" y="220">React entry point</text>
+  <text class="muted xs" x="90" y="245">mounts App</text>
+  <text class="muted xs" x="90" y="270">wraps providers if needed</text>
+
+  <rect class="done" x="430" y="145" width="300" height="150" rx="14"/>
+  <text class="text h" x="460" y="185">app/</text>
+  <text class="green xs" x="460" y="220">App.jsx exists</text>
+  <text class="green xs" x="460" y="245">app.routes.jsx exists</text>
+  <text class="green xs" x="460" y="270">store + CSS exist</text>
+
+  <rect class="todo" x="800" y="145" width="300" height="150" rx="14"/>
+  <text class="text h" x="830" y="185">components/layout/</text>
+  <text class="red xs" x="830" y="220">AppLayout.jsx empty</text>
+  <text class="red xs" x="830" y="245">Sidebar/Topbar empty</text>
+  <text class="muted xs" x="830" y="270">Purpose: app shell</text>
+
+  <rect class="todo" x="1170" y="145" width="300" height="150" rx="14"/>
+  <text class="text h" x="1200" y="185">components/ui/</text>
+  <text class="red xs" x="1200" y="220">Button/Input empty</text>
+  <text class="red xs" x="1200" y="245">Modal/Tabs empty</text>
+  <text class="muted xs" x="1200" y="270">Purpose: reusable primitives</text>
+
+  <rect class="done" x="60" y="360" width="300" height="230" rx="14"/>
+  <text class="text h" x="90" y="400">features/auth/</text>
+  <text class="green xs" x="90" y="435">Login.jsx implemented</text>
+  <text class="green xs" x="90" y="460">Register.jsx implemented</text>
+  <text class="green xs" x="90" y="485">Protected.jsx implemented</text>
+  <text class="green xs" x="90" y="510">useAuth + auth.api exist</text>
+  <text class="muted xs" x="90" y="535">Purpose: login/session flow</text>
+  <text class="muted xs" x="90" y="560">Needs: polish + reload auth check</text>
+
+  <rect class="todo" x="430" y="360" width="300" height="230" rx="14"/>
+  <text class="text h" x="460" y="400">features/chat/</text>
+  <text class="red xs" x="460" y="435">Home.jsx empty</text>
+  <text class="red xs" x="460" y="460">ChatThread.jsx empty</text>
+  <text class="red xs" x="460" y="485">ChatInput/SourcePanel empty</text>
+  <text class="red xs" x="460" y="510">useChat/chat.api empty</text>
+  <text class="muted xs" x="460" y="535">Purpose: core answer engine UI</text>
+  <text class="muted xs" x="460" y="560">Highest frontend priority</text>
+
+  <rect class="todo" x="800" y="360" width="300" height="230" rx="14"/>
+  <text class="text h" x="830" y="400">features/library/</text>
+  <text class="red xs" x="830" y="435">Library.jsx empty</text>
+  <text class="red xs" x="830" y="460">Search/filter/list empty</text>
+  <text class="red xs" x="830" y="485">useLibrary/api empty</text>
+  <text class="muted xs" x="830" y="510">Purpose: saved chat history</text>
+  <text class="muted xs" x="830" y="535">Depends on backend chat APIs</text>
+
+  <rect class="todo" x="1170" y="360" width="300" height="230" rx="14"/>
+  <text class="text h" x="1200" y="400">features/settings/</text>
+  <text class="red xs" x="1200" y="435">Settings.jsx empty</text>
+  <text class="red xs" x="1200" y="460">Profile/Plan/Danger empty</text>
+  <text class="red xs" x="1200" y="485">useSettings/api empty</text>
+  <text class="muted xs" x="1200" y="510">Purpose: account/preferences</text>
+  <text class="muted xs" x="1200" y="535">Depends on user/settings APIs</text>
+
+  <rect class="todo" x="60" y="655" width="300" height="205" rx="14"/>
+  <text class="text h" x="90" y="695">lib/</text>
+  <text class="red xs" x="90" y="730">axios.js missing</text>
+  <text class="red xs" x="90" y="755">citationParser.js missing</text>
+  <text class="red xs" x="90" y="780">streamParser.js missing</text>
+  <text class="red xs" x="90" y="805">markdown.js missing</text>
+  <text class="muted xs" x="90" y="830">Purpose: shared helpers/config</text>
+
+  <rect class="todo" x="430" y="655" width="300" height="205" rx="14"/>
+  <text class="text h" x="460" y="695">data/</text>
+  <text class="red xs" x="460" y="730">promptSuggestions.js missing</text>
+  <text class="red xs" x="460" y="755">models.js missing</text>
+  <text class="red xs" x="460" y="780">searchModes.js missing</text>
+  <text class="muted xs" x="460" y="805">Purpose: static frontend data</text>
+  <text class="muted xs" x="460" y="830">Useful before backend ready</text>
+
+  <rect class="later" x="800" y="655" width="300" height="205" rx="14"/>
+  <text class="text h" x="830" y="695">features/billing/</text>
+  <text class="muted xs" x="830" y="730">Billing.jsx later</text>
+  <text class="muted xs" x="830" y="755">PlanCard.jsx later</text>
+  <text class="muted xs" x="830" y="780">UsageMeter.jsx later</text>
+  <text class="muted xs" x="830" y="805">Purpose: plan + payments</text>
+
+  <rect class="later" x="1170" y="655" width="300" height="205" rx="14"/>
+  <text class="text h" x="1200" y="695">advanced features/</text>
+  <text class="muted xs" x="1200" y="730">files/ later</text>
+  <text class="muted xs" x="1200" y="755">spaces/ later</text>
+  <text class="muted xs" x="1200" y="780">share/ later</text>
+  <text class="muted xs" x="1200" y="805">user/ later if separated</text>
+  <text class="muted xs" x="1200" y="830">Purpose: SaaS expansion</text>
+
+  <path class="accent" d="M360 220 H430"/>
+  <path class="accent" d="M730 220 H800"/>
+  <path class="accent" d="M1100 220 H1170"/>
+  <path class="line" d="M580 295 V360"/>
+  <path class="line" d="M950 295 V360"/>
+  <path class="line" d="M1320 295 V360"/>
+
+  <rect class="box" x="60" y="925" width="1410" height="180" rx="18"/>
+  <text class="text h" x="95" y="970">How frontend folders work together</text>
+  <text class="muted s" x="95" y="1010">app/ defines routes/store/global CSS. components/ contains reusable layout and UI pieces. features/ owns feature-specific pages, components, hooks, API calls, and Redux slices.</text>
+  <text class="muted s" x="95" y="1050">For the core product, finish features/chat first, because Home, ChatThread, ChatInput, StreamingAnswer, CitationBadge, and SourcePanel are the main product experience.</text>
+</svg>

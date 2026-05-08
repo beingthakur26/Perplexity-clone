@@ -1,0 +1,202 @@
+# Perplexity/Claude SaaS Project - Visual TLDR
+
+Use this file as the quick navigation guide for the visual diagrams.
+
+## Diagram Files
+
+```txt
+docs/diagrams/backend_architecture.svg
+docs/diagrams/frontend_architecture.svg
+docs/diagrams/platform_internal_workflow.svg
+docs/diagrams/feature_map.svg
+docs/diagrams/backend_folder_structure_detail.svg
+docs/diagrams/backend_folder_workflow_detail.svg
+docs/diagrams/frontend_folder_structure_detail.svg
+docs/diagrams/frontend_folder_workflow_detail.svg
+```
+
+## Project Mental Model
+
+```txt
+User
+  |
+  v
+Frontend React/Vite
+  |
+  v
+Backend Express
+  |
+  +-> MongoDB stores users/chats/messages/sources
+  +-> Search API finds web results
+  +-> Scraper extracts readable source content
+  +-> LLM generates cited answer
+  +-> SSE streams answer tokens to frontend
+```
+
+## Core Product Loop
+
+```txt
+query
+  -> search
+  -> scrape
+  -> prepare numbered sources
+  -> generate AI answer
+  -> validate citations
+  -> stream to UI
+  -> save chat history
+  -> allow follow-up
+```
+
+## Most Useful Diagrams
+
+For overall backend:
+
+```txt
+docs/diagrams/backend_architecture.svg
+```
+
+For each backend folder and what it does:
+
+```txt
+docs/diagrams/backend_folder_structure_detail.svg
+```
+
+For how backend folders work during `/api/search`:
+
+```txt
+docs/diagrams/backend_folder_workflow_detail.svg
+```
+
+For overall frontend:
+
+```txt
+docs/diagrams/frontend_architecture.svg
+```
+
+For each frontend folder and what it does:
+
+```txt
+docs/diagrams/frontend_folder_structure_detail.svg
+```
+
+For how frontend folders work when user asks a question:
+
+```txt
+docs/diagrams/frontend_folder_workflow_detail.svg
+```
+
+For complete platform flow:
+
+```txt
+docs/diagrams/platform_internal_workflow.svg
+```
+
+For all features:
+
+```txt
+docs/diagrams/feature_map.svg
+```
+
+## What Exists Now
+
+Backend:
+
+```txt
+server.js
+src/app.js
+src/config/database.js
+src/controllers/auth.controller.js
+src/routes/auth.routes.js
+src/middlewares/auth.middleware.js
+src/middlewares/error.middleware.js
+src/middlewares/validator.middleware.js
+src/models/user.model.js
+src/models/chat.model.js
+src/models/message.model.js
+src/services/ai.services.js
+src/services/mail.service.js
+src/validators/auth.validator.js
+src/utils/ApiError.js
+src/utils/asyncHandler.js
+```
+
+Frontend:
+
+```txt
+src/app/
+src/features/auth/
+src/features/chat/
+src/features/library/
+src/features/settings/
+src/components/layout/
+src/components/ui/
+```
+
+Important note:
+Many frontend files are created but still empty placeholders.
+
+## Highest Priority Missing Backend Files
+
+```txt
+src/routes/search.routes.js
+src/controllers/search.controller.js
+src/services/search.service.js
+src/services/scraper.service.js
+src/services/groq.service.js
+src/services/citation.service.js
+src/services/stream.service.js
+src/services/chat.service.js
+src/models/source.model.js
+src/validators/search.validator.js
+```
+
+## Highest Priority Missing Frontend Logic
+
+```txt
+src/components/layout/AppLayout.jsx
+src/components/layout/Sidebar.jsx
+src/components/layout/Topbar.jsx
+src/features/chat/pages/Home.jsx
+src/features/chat/pages/ChatThread.jsx
+src/features/chat/components/ChatInput.jsx
+src/features/chat/components/StreamingAnswer.jsx
+src/features/chat/components/CitationBadge.jsx
+src/features/chat/components/SourcePanel.jsx
+src/features/chat/hook/useChat.js
+src/features/chat/service/chat.api.js
+src/lib/axios.js
+src/lib/citationParser.js
+src/lib/streamParser.js
+```
+
+## Build Order
+
+```txt
+1. Backend search route
+2. Search service
+3. Scraper service
+4. LLM service
+5. Citation service
+6. Basic frontend Home + ChatInput
+7. ChatThread + SourcePanel
+8. SSE streaming
+9. Save chat history
+10. Library
+11. Settings
+12. Usage limits
+13. Billing/files/spaces/sharing
+```
+
+## Design Direction
+
+```txt
+Dark SaaS UI
+Background: #0F1117
+Surface: #161A22
+Card: #1A1D27
+Border: #2B3241
+Accent: #20B2AA
+Text: #F3F5F7
+Muted: #A7ADB8
+```
+
